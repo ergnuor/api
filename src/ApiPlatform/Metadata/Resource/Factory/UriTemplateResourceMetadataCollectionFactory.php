@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\ApiPlatform\Metadata\Resource\Factory;
+namespace Ergnuor\Api\ApiPlatform\Metadata\Resource\Factory;
 
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\HttpOperation;
@@ -10,9 +10,9 @@ use ApiPlatform\Metadata\Operations;
 use ApiPlatform\Metadata\Post;
 use ApiPlatform\Metadata\Resource\Factory\ResourceMetadataCollectionFactoryInterface;
 use ApiPlatform\Metadata\Resource\ResourceMetadataCollection;
-use Ergnuor\ApiPlatform\EntityManager\RestEntityManagerInterface;
-use Ergnuor\ApiPlatform\ApiPlatform\State\RestRepositoryStateProcessor;
-use Ergnuor\ApiPlatform\ApiPlatform\State\RestRepositoryStateProvider;
+use Ergnuor\Api\EntityManager\RestEntityManagerInterface;
+use Ergnuor\Api\ApiPlatform\State\RestRepositoryStateProcessor;
+use Ergnuor\Api\ApiPlatform\State\RestRepositoryStateProvider;
 
 final class UriTemplateResourceMetadataCollectionFactory implements ResourceMetadataCollectionFactoryInterface
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Persister;
+namespace Ergnuor\Api\Persister;
 
-use Ergnuor\ApiPlatform\RegistryInterface;
+use Ergnuor\Api\RegistryInterface;
 
 abstract class AbstractRestServicePersister extends AbstractRestPersister
 {

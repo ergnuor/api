@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Mapping;
+namespace Ergnuor\Api\Mapping;
 
 interface ClassMetadataInterface
 {

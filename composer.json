@@ -1,5 +1,5 @@
 {
-  "name": "ergnuor/api-platform",
+  "name": "ergnuor/api",
   "description": "",
   "keywords": [
     "rest",
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Ergnuor\\ApiPlatform\\": "src/"
+      "Ergnuor\\Api\\": "src/"
     }
   },
   "config": {

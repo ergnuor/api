@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Mapping;
+namespace Ergnuor\Api\Mapping;
 
 
 use Ergnuor\Mapping\AbstractClassMetadataFactoryAdapter;
-use Ergnuor\ApiPlatform\Mapping\Annotation;
+use Ergnuor\Api\Mapping\Annotation;
 
 class ClassMetadataFactoryAdapter extends AbstractClassMetadataFactoryAdapter
 {

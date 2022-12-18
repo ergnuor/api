@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Request;
+namespace Ergnuor\Api\Request;
 
 interface RequestInterface
 {

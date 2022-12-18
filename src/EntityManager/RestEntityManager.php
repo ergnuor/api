@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\EntityManager;
+namespace Ergnuor\Api\EntityManager;
 
 use Ergnuor\Mapping\ClassMetadataFactoryInterface;
-use Ergnuor\ApiPlatform\Mapping\ClassMetadataInterface;
-use Ergnuor\ApiPlatform\Persister\RestPersisterInterface;
-use Ergnuor\ApiPlatform\Repository\RestRepositoryInterface;
+use Ergnuor\Api\Mapping\ClassMetadataInterface;
+use Ergnuor\Api\Persister\RestPersisterInterface;
+use Ergnuor\Api\Repository\RestRepositoryInterface;
 use Psr\Container\ContainerInterface;
 
 class RestEntityManager implements RestEntityManagerInterface

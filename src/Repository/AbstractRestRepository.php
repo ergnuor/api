@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Repository;
+namespace Ergnuor\Api\Repository;
 
 use ApiPlatform\Api\CompositeIdentifierParser;
 use Symfony\Component\Serializer\Serializer;

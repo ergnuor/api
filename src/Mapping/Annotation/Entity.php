@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Mapping\Annotation;
+namespace Ergnuor\Api\Mapping\Annotation;
 
 use Attribute;
 use Ergnuor\Mapping\Annotation\AnnotationInterface;

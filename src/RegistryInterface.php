@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform;
+namespace Ergnuor\Api;
 
-use Ergnuor\ApiPlatform\EntityManager\RestEntityManagerInterface;
-use Ergnuor\ApiPlatform\Request\RequestInterface;
+use Ergnuor\Api\EntityManager\RestEntityManagerInterface;
+use Ergnuor\Api\Request\RequestInterface;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 

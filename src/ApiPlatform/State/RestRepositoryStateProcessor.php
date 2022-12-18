@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\ApiPlatform\State;
+namespace Ergnuor\Api\ApiPlatform\State;
 
 use ApiPlatform\Metadata\Operation;
 use ApiPlatform\State\ProcessorInterface;
-use Ergnuor\ApiPlatform\EntityManager\RestEntityManagerInterface;
+use Ergnuor\Api\EntityManager\RestEntityManagerInterface;
 
 class RestRepositoryStateProcessor implements ProcessorInterface
 {

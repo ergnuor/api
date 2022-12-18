@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Persister;
+namespace Ergnuor\Api\Persister;
 
-use Ergnuor\ApiPlatform\EntityManager\RestEntityManagerInterface;
+use Ergnuor\Api\EntityManager\RestEntityManagerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 abstract class AbstractRestPersister implements RestPersisterInterface

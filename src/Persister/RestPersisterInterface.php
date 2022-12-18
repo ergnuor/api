@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Persister;
+namespace Ergnuor\Api\Persister;
 
 interface RestPersisterInterface
 {

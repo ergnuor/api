@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ergnuor\ApiPlatform\Repository;
+namespace Ergnuor\Api\Repository;
 
-use Ergnuor\ApiPlatform\RegistryInterface;
+use Ergnuor\Api\RegistryInterface;
 
 abstract class AbstractRestServiceRepository extends AbstractRestRepository
 {
