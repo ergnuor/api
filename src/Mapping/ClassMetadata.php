@@ -7,7 +7,7 @@ class ClassMetadata implements ClassMetadataInterface
 {
     private string $className;
     private string $repositoryClass;
-    private string $persisterClass;
+    private ?string $persisterClass = null;
 
     public function __construct(string $className)
     {
@@ -24,7 +24,7 @@ class ClassMetadata implements ClassMetadataInterface
         return $this->repositoryClass;
     }
 
-    public function getPersisterClass(): string
+    public function getPersisterClass(): ?string
     {
         return $this->persisterClass;
     }

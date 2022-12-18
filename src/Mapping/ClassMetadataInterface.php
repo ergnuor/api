@@ -7,7 +7,7 @@ interface ClassMetadataInterface
 {
     public function getRepositoryClass(): string;
 
-    public function getPersisterClass(): string;
+    public function getPersisterClass(): ?string;
 
     public function getClassName(): string;
 }

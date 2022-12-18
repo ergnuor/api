@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Ergnuor\ApiPlatform\Repository;
 
-use ApiPlatform\Core\Identifier\CompositeIdentifierParser;
+use ApiPlatform\Api\CompositeIdentifierParser;
 use Symfony\Component\Serializer\Serializer;
 
 abstract class AbstractRestRepository implements RestRepositoryInterface
@@ -58,7 +58,7 @@ abstract class AbstractRestRepository implements RestRepositoryInterface
 
     private function normalizeIfObject($item)
     {
-        return is_object($item) ? $this->serializer->normalize($item, 'json') : $item;
+        return is_object($item) ? $this->serializer->normalize($item) : $item;
     }
 
     /**
@@ -72,7 +72,7 @@ abstract class AbstractRestRepository implements RestRepositoryInterface
 
     private function denormalizeList(array $list): array
     {
-        return $this->serializer->denormalize($list, $this->getResourceClass() . '[]', 'json');
+        return $this->serializer->denormalize($list, $this->getResourceClass() . '[]');
     }
 
     final public function getItem($id)
@@ -90,7 +90,7 @@ abstract class AbstractRestRepository implements RestRepositoryInterface
 
         $item = $this->normalizeIfObject($item);
         $item = $this->mapItem($item);
-        return $this->serializer->denormalize($item, $this->getResourceClass(), 'json');
+        return $this->serializer->denormalize($item, $this->getResourceClass());
     }
 
     abstract protected function doGetItem($id);
