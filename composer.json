@@ -16,7 +16,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:Ergnuor/ergnuormapping.git"
+      "url": "git@bitbucket.org:Ergnuor/ergnuor-mapping.git"
     }
   ],
   "require": {
@@ -24,9 +24,9 @@
     "api-platform/core": "^3.0",
     "ergnuor/mapping": "^0.1.0",
     "psr/container": "^2.0",
-    "symfony/http-foundation": "^6.0",
-    "symfony/serializer": "^6.0",
-    "symfony/validator": "^6.0"
+    "symfony/http-foundation": "^6.3",
+    "symfony/serializer": "^6.3",
+    "symfony/validator": "^6.3"
   },
   "autoload": {
     "psr-4": {
